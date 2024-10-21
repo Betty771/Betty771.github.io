@@ -1,0 +1,51 @@
+*{
+  box-sizing:border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background:#A4D4E9;
+  font-family: "Playwrite GB S", cursive;
+}
+
+
+div.grid-item{
+  width:33.33%;
+    padding:10px;
+}
+
+
+a.link {
+  padding:10px;
+  background:rgb(243,226,226);
+}
+
+a.link:hover{
+  background:blue;
+}
+
+div.grid-item img {
+  width:100%;
+  border-radius:20px;
+  transition:all 0.25s;
+}
+
+div.grid-item img:hover {
+  transform:translate(-3px,-3px) rotate(3deg);
+    box-shadow:10px 10px 10px #7AA0BE
+}
+ 
+
+h1 {
+   text-align:center;
+   margin-top:100px;
+  font-size:50px;
+  color:rgb(83,83,194)
+}
+
+p  {
+  text-align:center;
+  margin-top:100px;
+  color:rgb(102,102,204)
+}
